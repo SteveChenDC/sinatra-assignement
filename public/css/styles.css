@@ -1,0 +1,529 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Roboto|Oxygen);
+/* Fixed Nav */
+
+
+
+figure {
+  margin: 0 0 20px 0;
+}
+
+figure img {
+  display: block;
+
+}
+
+figcaption {
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top:;
+  width: 500px;
+  font-style: ;
+}
+
+/* Frequently used classes */
+.anchor {
+	padding-top: 40px;
+}
+
+.black-text{
+	color: black;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.center-item {
+	margin: 0 auto;
+}
+
+.light-shadow {
+	text-shadow: 1px 0 black; /* Creates thin shadow behind text. For white on white text */
+}
+
+.row {
+	margin: auto; /* Fixes extra margin causing vertical scroll bar */
+}
+
+.text-thicker{
+
+}
+.intro-column{
+	padding-left: 00px;
+}
+#wrapper{
+  width: 90%;
+  margin: auto;
+}
+/* navigation */
+.nav {
+	float: right;
+}
+
+.nav ul {
+	float: right;
+}
+
+.navbar-brand {
+	height: 0;
+	padding: 0;
+}
+
+.navbar-header {
+	z-index: 1400;
+}
+
+.home-header {
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 15px;
+    float: left;
+    display: block;
+}
+
+.home-header img {
+	display: inline-block;
+}
+
+.home-header span {
+	color: white;
+	display: inline-block;
+}
+.logo-font {
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+/* Carousel */
+.carousel-row {
+	background-color:;
+	border-top: 1px solid black;
+	color:;
+}
+
+.carousel-caption h3{
+	text-shadow: 5px solid black;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+/* About */
+.about {
+	background-image: url("../images/measures.jpg");
+	/* Add a background image */
+	background-attachment: fixed;
+	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
+	background-size: cover;
+	/* Have the background cover entire div */
+	color: white;
+	background-color: black;
+	/* Change color of text on top so its readable, adjust padding as needed */
+
+	padding:;
+}
+
+.circle-img {
+	border: 1px solid black;
+    border-radius: 100px;
+    margin: 10px;
+    margin-top:20px;
+}
+
+.story {
+    clear: both;
+    border: 2px solid #436984;
+    margin: 2% auto;
+}
+
+.story p {
+    margin: 10px;
+}
+
+.skills {
+    background-color:;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* WORK */
+.work {
+	width: 100%;
+	display: block;
+	background-color: ;
+	color: black;
+}
+
+/* Interactive work*/
+.image {
+    box-sizing:border-box;
+    border:2px solid #436984;;
+    width:200px;
+    height:200px;
+    margin:5px;
+    display:inline-block;
+    position:relative;
+}
+.info {
+    display:inline-block;
+    color:#fff;
+    font-family:Futura;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:0.5em;
+    line-height:1.6;
+    position:absolute;
+    top:15%;
+    left:22%;
+}
+.proj-title {
+    font-weight:100;
+}
+
+
+/* Learn More/FAQ */
+.faq {
+	background-image: url("../images/moon.png");
+	/* Add a background image */
+	background-attachment: fixed;
+	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
+	background-size: ;
+	/* Have the background cover entire div */
+	color: white;
+	/* Change color of text on top so its readable, adjust padding as needed */
+	padding-bottom: 50px;
+}
+.faq h1 {
+	color: white;
+}
+
+#accordion {
+	position: relative;
+}
+
+#modalframe {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+	padding-left: 30px;
+	color: white;
+}
+
+.modal-body {
+	height: 500px;
+}
+
+.resume-button {
+	float: right;
+	padding: 15px;
+	margin-right: auto;
+}
+
+.panel > .panel-heading {
+	background-color: #031634;
+	color: white;
+}
+
+.panel-body {
+	background-color: #436984;
+}
+
+/* FAQ Table */
+.faq-table{
+	width:75%;
+	text-align: center;
+}
+
+.my-row th{
+	text-align: center;
+}
+
+td{
+	width: 33%;
+}
+
+/* Form */
+input {
+	color:black;
+}
+
+.btn-primary {
+	float: right;
+	margin-top: 2px;
+}
+
+.form-control {
+	width: 100%;
+	margin-top: 10px;
+}
+
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:550px;
+height:375px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: ;
+line-height: 24px;
+font-weight: bold;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.message-box {
+	margin-top: 100px;
+}
+
+/* Video */
+.video {
+	padding: 50px;
+	background-color:;
+}
+
+.video iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Contact */
+.contact {
+	background-image: url("../images/moon.png");
+	/* Add a background image */
+	background-attachment: fixed;
+	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
+	background-size: cover;
+	/* Have the background cover entire div */
+	color: white;
+	/* Change color of text on top so its readable, adjust padding as needed */
+
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.contact-column {
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-column h2 {
+	font-weight: 600;
+	color: #F8F8FF;
+	text-shadow: 2px 0 black;
+}
+
+.contact-column ul {
+    list-style-type: none;
+}
+
+.contact_form {
+	border: 1px dotted black;
+	width: 45%;
+	float: right;
+	padding-bottom: 325px;
+}
+
+.glyphicon:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+	height: 25px;
+	padding-top: 5px;
+	background-color:;
+	color:white;
+
+}
+
+.copyright p {
+	margin-bottom: 0;
+	display: inline-block;
+	float: left;
+}
+
+.social-media {
+	display: inline-block;
+	padding: 0 5px;
+	float: right;
+	margin-bottom: 0px;
+}
+
+.fb-like{
+	display:inline-block;
+	float: right;
+}
+.twitter-follow-button {
+	display:inline-block;
+	min-width: 160px;
+	float: right;
+}
+
+/*html {
+  background: url("../img/portfolioheroimage.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+/* Social Media links */
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.icon-cube {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube::before,
+.icon-cube::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/icons5.png");
+  background-image: url("../images/icons5.svg"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube::before {
+  z-index: 2;
+  background-color: #595959;
+}
+
+.icon-cube::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube.facebook::before,
+.icon-cube.facebook::after {
+  background-position: 0 0;
+}
+
+.icon-cube.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube.twitter::before,
+.icon-cube.twitter::after {
+  background-position: -96px 0;
+}
+
+.icon-cube.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube.googleplus::before,
+.icon-cube.googleplus::after {
+  background-position: -192px 0;
+}
+
+.icon-cube.googleplus::after {
+  background-color: #d34836;
+}
+
+/* github */
+.icon-cube.github::before,
+.icon-cube.github::after {
+  background-position: -288px 0;
+}
+
+.icon-cube.github::after {
+  background-color: #333333;
+}
+
+/* rss */
+.icon-cube.rss::before,
+.icon-cube.rss::after {
+  background-position: -384px 0;
+}
+
+.icon-cube.rss::after {
+  background-color: #ee802f;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+a, {
+        font-family: 'Oswald', 'Roboto', 'Oxygen', ;
+}
+p,
+{
+        font-family: 'Oswald', 'Roboto', 'Oxygen', ;
+}
+h2 {
+	font-size: 36px
+}
+
+/* Removes float when navbar collapses. */
+@media (max-width: 767px) {
+  .navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+}
